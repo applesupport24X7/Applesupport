@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #007BFF;  /* A more vibrant blue */
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#company-logo {
+    width: 120px;  /* Adjusted for a more balanced appearance */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+main {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #555;
+}
+
+button {
+    background-color: #28a745;  /* Green for actions */
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;  /* Darker green on hover */
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #666;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #dee2e6;
+    font-size: 16px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer h2 {
+    color: #007BFF;  /* Echoing the header color for consistency */
+    margin-top: 15px;
+}
